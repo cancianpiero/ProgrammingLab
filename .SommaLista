@@ -1,0 +1,9 @@
+# Scrivete una funzione che sommi tutti gli elementi di una     lista. Poi, committate il file in cui l’avete scritta.
+
+def list_sum (the_list)
+    sum = 0
+    for item in the_list
+        sum = sum + item
+    print("Somma: {}". format(sum))
+
+list_sum([1,4,10])
